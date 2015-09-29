@@ -23,7 +23,7 @@
 <meta property="og:title"         content="Puwadon Sricharoen in IGENSITE"/>
 <meta property="og:description"   content="Web Developer and Web Designer (UI &amp; UX Design) at IGensite"/>
 <meta property="og:url"           content="http://igensite.com"/>
-<meta property="og:image"         content="bg.jpg"/>
+<meta property="og:image"         content="http://igensite.com/bg.jpg"/>
 
 <meta property="og:type"          content="website"/>
 <meta property="og:site_name"     content="igensite"/>
@@ -36,7 +36,7 @@
 <!-- Add the following three tags inside head. -->
 <meta itemprop="name" content="Puwadon Sricharoen in IGENSITE">
 <meta itemprop="description" content="Web Developer and Web Designer (UI &amp; UX Design) at IGensite">
-<meta itemprop="image" content="bg.jpg">
+<meta itemprop="image" content="http://igensite.com/bg.jpg">
 
 <!-- CSS -->
 <link rel="stylesheet" href="css/reset.css" type="text/css"/>
