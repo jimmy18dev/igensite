@@ -46,7 +46,7 @@
 <body>
 <div class="container">
 	<div class="avatar">
-		<img src="https://graph.facebook.com/1818320188/picture?type=large" alt="<?php echo $me->fname;?>">
+		<img src="https://graph.facebook.com/1818320188/picture?type=square" alt="<?php echo $me->fname;?>">
 	</div>
 	<h1 class="title">Puwadon Sricharoen</h1>
 	<p>Web Developer and Web Designer (UI &amp; UX Design) at IGensite</p>
