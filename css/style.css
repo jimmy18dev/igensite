@@ -40,13 +40,9 @@ body {
   line-height: 2em;
 }
 .container p {
-  font-size: 1em;
+  font-size: 0.9em;
   line-height: 2em;
   color: #555555;
-}
-.container p.at {
-  font-size: 0.8em;
-  color: #CCCCCC;
 }
 .container p.contact {
   padding: 2% 0%;
