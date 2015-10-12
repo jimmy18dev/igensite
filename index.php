@@ -15,13 +15,13 @@
 <meta name="viewport" content="initial-scale=1,maximum-scale=1">
 <?php include'favicon.php';?>
 
-<title>Puwadon Sricharoen in IGENSITE</title>
+<title>IGENSITE - Web Designer and Development (UI &amp; UX Design)</title>
 
 <!-- Meta Tag Main -->
-<meta name="description"          content="Web Developer and Web Designer (UI &amp; UX Design) at IGensite"/>
+<meta name="description"          content="Dreams don't work Unless You do. I'm a UI UX Designer  with over 4 Years experience working. Freelancing 24/7 and always passionate about new projects."/>
 
-<meta property="og:title"         content="Puwadon Sricharoen in IGENSITE"/>
-<meta property="og:description"   content="Web Developer and Web Designer (UI &amp; UX Design) at IGensite"/>
+<meta property="og:title"         content="IGENSITE - Web Designer and Development (UI &amp; UX Design)"/>
+<meta property="og:description"   content="Dreams don't work Unless You do. I'm a UI UX Designer  with over 4 Years experience working. Freelancing 24/7 and always passionate about new projects."/>
 <meta property="og:url"           content="http://igensite.com"/>
 <meta property="og:image"         content="http://igensite.com/bg.jpg"/>
 
@@ -34,8 +34,8 @@
 <meta name="generator" content="IGENSITE Ver 1.0"/>
 
 <!-- Add the following three tags inside head. -->
-<meta itemprop="name" content="Puwadon Sricharoen in IGENSITE">
-<meta itemprop="description" content="Web Developer and Web Designer (UI &amp; UX Design) at IGensite">
+<meta itemprop="name" content="IGENSITE - Web Designer and Development (UI &amp; UX Design)">
+<meta itemprop="description" content="Dreams don't work Unless You do. I'm a UI UX Designer  with over 4 Years experience working. Freelancing 24/7 and always passionate about new projects.">
 <meta itemprop="image" content="http://igensite.com/bg.jpg">
 
 <!-- CSS -->
@@ -46,12 +46,14 @@
 <body>
 <div class="container">
 	<div class="avatar">
-		<img src="https://graph.facebook.com/1818320188/picture?type=square" alt="<?php echo $me->fname;?>">
+		<img src="https://graph.facebook.com/1818320188/picture?type=square" alt="Puwadon Sricharoen">
 	</div>
 	<h1 class="title">Puwadon Sricharoen</h1>
-	<p>Web Developer and Web Designer (UI &amp; UX Design) at IGensite</p>
+	<h2>Web Developer and Web Designer (UI &amp; UX Design) at IGensite.</h2>
 
-	<p>Bachelor of Science (Information Technology) King Mongkut's University of Technology North Bangkok</p>
+	<p>I'm a UI UX Designer  with over 4 Years experience working, Freelancing 24/7 and always passionate about new projects.</p>
+	<p>"Dreams don't work Unless You do."</p>
+	<p>Bachelor of Science (Information Technology) King Mongkut's University of Technology North Bangkok.</p>
 	<p class="contact">
 		<a href="https://www.behance.net/puwadonsricharoen" target="_blank">Behance</a> | 
 		<a href="https://www.linkedin.com/in/jimmy18dev" target="_blank">Linkedin</a> | 
