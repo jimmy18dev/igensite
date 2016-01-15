@@ -51,9 +51,9 @@
 	<h1 class="title">Puwadon Sricharoen</h1>
 	<h2>Web Developer and Web Designer (UI &amp; UX Design) at IGensite.</h2>
 
-	<p>I'm a UI UX Designer  with over 4 Years experience working, Freelancing 24/7 and always passionate about new projects.</p>
-	<p>"Dreams don't work Unless You do."</p>
+	<p>I'm a UI UX Designer  with over <?php echo date("Y") - 2012;?> Years experience working, Freelancing 24/7 and always passionate about new projects.</p>
 	<p>Bachelor of Science (Information Technology) King Mongkut's University of Technology North Bangkok.</p>
+	<p>"Dreams don't work Unless You do."</p>
 	<p class="contact">
 		<a href="https://www.behance.net/puwadonsricharoen" target="_blank">Behance</a> | 
 		<a href="https://www.linkedin.com/in/jimmy18dev" target="_blank">Linkedin</a> | 

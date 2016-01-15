@@ -32,8 +32,7 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-  border: 2px solid #FFFFFF;
+  background: #DDDDDD;
 }
 .container h1 {
   font-size: 1.7em;
