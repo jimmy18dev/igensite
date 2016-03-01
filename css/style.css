@@ -10,60 +10,193 @@ button {
   /* IE11 */
 }
 body {
-  background: #F5F5F5;
-  font-family: sans-serif, 'Open Sans';
+  background: #FFFFFF;
+  font-family: 'Noto Sans', sans-serif;
   overflow-y: scroll;
   overflow-x: hidden;
 }
-.container {
-  width: 100%;
-  padding-top: 10%;
+.author {
+  width: 54%;
+  padding: 5% 23%;
   float: left;
   display: inline-block;
   text-align: center;
+  background: #FAFAFA;
 }
-.container .avatar {
+.author .avatar {
+  margin-bottom: 2%;
+}
+.author .avatar img {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.author .name {
   width: 100%;
-  padding: 1% 0%;
   float: left;
   display: inline-block;
 }
-.container .avatar img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: #DDDDDD;
+.author .name h1 {
+  font-size: 2.1em;
+  line-height: 1.5em;
+  color: rgba(0, 0, 0, 0.8);
 }
-.container h1 {
-  font-size: 1.7em;
-  line-height: 2em;
+.author .about {
+  width: 100%;
+  float: left;
+  display: inline-block;
+  margin-top: 3%;
 }
-.container h2,
-.container p {
+.author p {
   font-size: 0.9em;
-  line-height: 2em;
-  color: #555555;
+  line-height: 1.5em;
+  color: rgba(0, 0, 0, 0.8);
 }
-.container p.contact {
-  padding: 2% 0%;
-  font-size: 0.9em;
-  color: #AAAAAA;
+.author p.qoute {
+  font-size: 1.1em;
+  font-style: italic;
 }
-.container p.contact a {
-  color: #AAAAAA;
+.author a {
+  color: #3F51B5;
 }
-.container p.contact a:hover {
-  color: #000000;
+.author a:hover {
   text-decoration: underline;
 }
-.container p.work {
+.gallery {
+  width: 100%;
+  float: left;
+  display: inline-block;
+}
+.gallery .photo-items {
+  width: 50%;
+  margin: 0% 25%;
+  margin-top: 5%;
+  float: left;
+  display: inline-block;
+  position: relative;
+}
+.gallery .photo-items img {
+  width: 100%;
+  float: left;
+  display: inline-block;
+  background: #EEEEEE;
+  min-height: 200px;
+  text-align: center;
+  font-size: 0.8em;
   color: #AAAAAA;
-  font-size: 0.9em;
-  font-weight: bold;
 }
-.container p.work a {
-  color: #000000;
+.gallery .photo-items figcaption {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 90%;
+  padding: 5%;
+  float: left;
+  display: inline-block;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: right;
 }
-.container p.work a:hover {
-  text-decoration: underline;
+@media only screen and (min-width: 760px) and (max-width: 1023px) {
+  .author {
+    width: 94%;
+    padding: 11% 3%;
+  }
+  .author .avatar {
+    margin-bottom: 5%;
+  }
+  .author .name h1 {
+    font-size: 1.5em;
+    line-height: 1em;
+  }
+  .author .about {
+    margin-top: 3%;
+  }
+  .author p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
+  .author p.qoute {
+    font-size: 1em;
+  }
+  .gallery .photo-items {
+    width: 60%;
+    margin: 0% 20%;
+    margin-bottom: 1%;
+  }
+  .gallery .photo-items figcaption {
+    width: 90%;
+    padding: 5%;
+    font-size: 0.8em;
+    line-height: 1.5em;
+  }
+}
+@media only screen and (min-width: 520px) and (max-width: 759px) {
+  .author {
+    width: 94%;
+    padding: 10% 3%;
+  }
+  .author .avatar {
+    margin-bottom: 5%;
+  }
+  .author .name h1 {
+    font-size: 1.5em;
+    line-height: 1em;
+  }
+  .author .about {
+    margin-top: 3%;
+  }
+  .author p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
+  .author p.qoute {
+    font-size: 1em;
+  }
+  .gallery .photo-items {
+    width: 100%;
+    margin: 0%;
+    margin-bottom: 1%;
+  }
+  .gallery .photo-items figcaption {
+    width: 90%;
+    padding: 5%;
+    font-size: 0.8em;
+    line-height: 1.5em;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 519px) {
+  .author {
+    width: 94%;
+    padding: 10% 3%;
+  }
+  .author .avatar {
+    margin-bottom: 5%;
+  }
+  .author .name h1 {
+    font-size: 1.5em;
+    line-height: 1em;
+  }
+  .author .about {
+    margin-top: 3%;
+  }
+  .author p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
+  .author p.qoute {
+    font-size: 1em;
+  }
+  .gallery .photo-items {
+    width: 100%;
+    margin: 0%;
+  }
+  .gallery .photo-items figcaption {
+    width: 90%;
+    padding: 5%;
+    font-size: 0.8em;
+    line-height: 1.5em;
+  }
 }

@@ -1,60 +1,95 @@
 @import "default";
 
-.container{
-    width: 100%;
-    padding-top: 10%;
+.author{
+    width: 54%;
+    padding: 5% 23%;
     float: left;
     display: inline-block;
     text-align: center;
+    background: #FAFAFA;
 
     .avatar{
+        margin-bottom: 2%;
+
+        img{
+            display: inline-block;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+    }
+    .name{
         width: 100%;
-        padding: 1% 0%;
         float: left;
         display: inline-block;
 
+        h1{
+            font-size: 2.1em;
+            line-height: 1.5em;
+            color: rgba(0, 0, 0, 0.8);
+        }
+    }
+
+    .about{
+        width: 100%;
+        float: left;
+        display: inline-block;
+        margin-top: 3%;
+    }
+
+    p{
+        font-size: 0.9em;
+        line-height: 1.5em;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    p.qoute{
+        font-size: 1.1em;
+        font-style: italic;
+    }
+
+    a{
+        color: #3F51B5;
+        &:hover{text-decoration: underline;}
+    }
+}
+
+.gallery{
+    width: 100%;
+    float: left;
+    display: inline-block;
+
+    .photo-items{
+        width: 50%;
+        margin: 0% 25%;
+        margin-top: 5%;
+        float: left;
+        display: inline-block;
+        position: relative;
+
         img{
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background: #DDDDDD;
-        }
-    }
-
-    h1{
-        font-size: 1.7em;
-        line-height: 2em;
-    }
-
-    h2,p{
-        font-size: 0.9em;
-        line-height: 2em;
-        color: #555555;
-    }
-
-    p.contact{
-        padding: 2% 0%;
-        font-size: 0.9em;
-        color: #AAAAAA;
-
-        a{
+            width: 100%;
+            float: left;
+            display: inline-block;
+            background: #EEEEEE;
+            min-height: 200px;
+            text-align: center;
+            font-size: 0.8em;
             color: #AAAAAA;
-            &:hover{
-                color: #000000;
-                text-decoration: underline;
-            }
         }
-    }
-    p.work{
-        color: #AAAAAA;
-        font-size: 0.9em;
-        font-weight: bold;
 
-        a{
-            color: #000000;
-            &:hover{
-                text-decoration: underline;
-            }
+        figcaption{
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            width: 90%;
+            padding: 5%;
+            float: left;
+            display: inline-block;
+            font-size: 0.8em;
+            line-height: 1.5em;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.8);
+            text-align: right;
         }
     }
 }
